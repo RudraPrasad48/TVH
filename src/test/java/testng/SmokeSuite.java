@@ -90,6 +90,7 @@ public class SmokeSuite {
 			  java.util.List<WebElement> rows = table.findElements(By.tagName("tr"));
 	   		  Assert.assertEquals(2, rows.size());
 	   		  System.out.println("TC6. Material section has only 1 entry – Assert passed");
+	   		  Thread.sleep(20000);
 	  }
 	  
 	  catch(AssertionError e)
