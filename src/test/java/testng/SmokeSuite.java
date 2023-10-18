@@ -78,6 +78,7 @@ public class SmokeSuite {
 			String ExpectedAnnualVolume = "12000";
 			Assert.assertEquals(ExpectedAnnualVolume, ActualAnnualVolume.getAttribute("value"));
 			System.out.println("TC2. Annual Volume is 12000 – Assert passed");
+			Thread.sleep(1000);
 
 			// 3. TC to verify Delivery Frequency is default to 30
 			WebElement ActualDF = driver.findElement(By.xpath("//input[@formcontrolname='DeliveryFrequency']"));
