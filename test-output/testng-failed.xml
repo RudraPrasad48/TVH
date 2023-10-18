@@ -6,7 +6,7 @@
       <class name="testng.SmokeSuite">
         <methods>
           <include name="afterMethod"/>
-          <include name="login"/>
+          <include name="createProject"/>
           <include name="validateCosting"/>
           <include name="beforeMethod"/>
         </methods>

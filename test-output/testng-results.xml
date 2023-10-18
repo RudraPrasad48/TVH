@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-04T20:43:00 IST" name="Default suite" finished-at="2023-10-04T20:45:25 IST" duration-ms="145363">
+  <suite started-at="2023-10-18T11:23:03 IST" name="Default suite" finished-at="2023-10-18T11:25:28 IST" duration-ms="144635">
     <groups>
     </groups>
-    <test started-at="2023-10-04T20:43:00 IST" name="Default test" finished-at="2023-10-04T20:45:25 IST" duration-ms="145363">
+    <test started-at="2023-10-18T11:23:03 IST" name="Default test" finished-at="2023-10-18T11:25:28 IST" duration-ms="144635">
       <class name="testng.SmokeSuite">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.SmokeSuite@6caf0677]" started-at="2023-10-04T20:43:00 IST" name="beforeMethod" finished-at="2023-10-04T20:43:59 IST" duration-ms="58944" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.SmokeSuite@6be968ce]" started-at="2023-10-18T11:23:03 IST" name="beforeMethod" finished-at="2023-10-18T11:23:30 IST" duration-ms="27027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="login()[pri:1, instance:testng.SmokeSuite@6caf0677]" started-at="2023-10-04T20:43:59 IST" name="login" finished-at="2023-10-04T20:45:05 IST" duration-ms="65992" status="PASS">
+        <test-method signature="login()[pri:1, instance:testng.SmokeSuite@6be968ce]" started-at="2023-10-18T11:23:30 IST" name="login" finished-at="2023-10-18T11:23:50 IST" duration-ms="20332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="validateCosting()[pri:2, instance:testng.SmokeSuite@6caf0677]" started-at="2023-10-04T20:45:05 IST" name="validateCosting" finished-at="2023-10-04T20:45:25 IST" duration-ms="20345" status="PASS">
+        <test-method signature="createProject()[pri:2, instance:testng.SmokeSuite@6be968ce]" started-at="2023-10-18T11:23:50 IST" name="createProject" finished-at="2023-10-18T11:25:07 IST" duration-ms="76774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="validateCosting()[pri:3, instance:testng.SmokeSuite@6be968ce]" started-at="2023-10-18T11:25:07 IST" name="validateCosting" finished-at="2023-10-18T11:25:28 IST" duration-ms="20404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCosting -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.SmokeSuite@6caf0677]" started-at="2023-10-04T20:45:25 IST" name="afterMethod" finished-at="2023-10-04T20:45:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.SmokeSuite@6be968ce]" started-at="2023-10-18T11:25:28 IST" name="afterMethod" finished-at="2023-10-18T11:25:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
